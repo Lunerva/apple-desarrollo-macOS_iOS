@@ -1,0 +1,10 @@
+Función fgets
+Sintaxis:
+
+char *fgets(char *cadena, int n, FILE *fichero);
+Esta función está diseñada para leer cadenas de caracteres. Leerá hasta n-1 caracteres o hasta que lea un retorno de línea. En este último caso, el carácter de retorno de línea también es leído.
+
+El parámetro n nos permite limitar la lectura para evitar derbordar el espacio disponible en la cadena.
+
+El valor de retorno es un puntero a la cadena leída, si se leyó con éxito, y es NULL si se detecta el final del fichero o si hay un error. Los parámetros son: la cadena a leer, el número de caracteres máximo a leer y un puntero a una estructura FILE del fichero del que se leerá.
+
