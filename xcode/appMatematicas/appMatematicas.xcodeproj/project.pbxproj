@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D21451372C88BB650021F508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21451362C88BB650021F508 /* main.m */; };
-		D22A15362C8B572000EBEC06 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = D22A15352C8B572000EBEC06 /* Box.m */; };
+		D20886E82C934154009D513A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D20886E72C934153009D513A /* main.m */; };
+		D20886F02C93422B009D513A /* Matematicas.m in Sources */ = {isa = PBXBuildFile; fileRef = D20886EF2C93422B009D513A /* Matematicas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D21451312C88BB650021F508 /* CopyFiles */ = {
+		D20886E22C934153009D513A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D21451332C88BB650021F508 /* appBoxOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appBoxOC; sourceTree = BUILT_PRODUCTS_DIR; };
-		D21451362C88BB650021F508 /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.m; sourceTree = "<group>"; };
-		D22A15342C8B572000EBEC06 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
-		D22A15352C8B572000EBEC06 /* Box.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		D20886E42C934153009D513A /* appMatematicas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appMatematicas; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20886E72C934153009D513A /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.m; sourceTree = "<group>"; };
+		D20886EE2C93422B009D513A /* Matematicas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matematicas.h; sourceTree = "<group>"; };
+		D20886EF2C93422B009D513A /* Matematicas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Matematicas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D21451302C88BB650021F508 /* Frameworks */ = {
+		D20886E12C934153009D513A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D214512A2C88BB650021F508 = {
+		D20886DB2C934153009D513A = {
 			isa = PBXGroup;
 			children = (
-				D21451352C88BB650021F508 /* appBoxOC */,
-				D21451342C88BB650021F508 /* Products */,
+				D20886E62C934153009D513A /* appMatematicas */,
+				D20886E52C934153009D513A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D21451342C88BB650021F508 /* Products */ = {
+		D20886E52C934153009D513A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D21451332C88BB650021F508 /* appBoxOC */,
+				D20886E42C934153009D513A /* appMatematicas */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D21451352C88BB650021F508 /* appBoxOC */ = {
+		D20886E62C934153009D513A /* appMatematicas */ = {
 			isa = PBXGroup;
 			children = (
-				D21451362C88BB650021F508 /* main.m */,
-				D22A15342C8B572000EBEC06 /* Box.h */,
-				D22A15352C8B572000EBEC06 /* Box.m */,
+				D20886E72C934153009D513A /* main.m */,
+				D20886EE2C93422B009D513A /* Matematicas.h */,
+				D20886EF2C93422B009D513A /* Matematicas.m */,
 			);
-			path = appBoxOC;
+			path = appMatematicas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D21451322C88BB650021F508 /* appBoxOC */ = {
+		D20886E32C934153009D513A /* appMatematicas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D214513A2C88BB650021F508 /* Build configuration list for PBXNativeTarget "appBoxOC" */;
+			buildConfigurationList = D20886EB2C934154009D513A /* Build configuration list for PBXNativeTarget "appMatematicas" */;
 			buildPhases = (
-				D214512F2C88BB650021F508 /* Sources */,
-				D21451302C88BB650021F508 /* Frameworks */,
-				D21451312C88BB650021F508 /* CopyFiles */,
+				D20886E02C934153009D513A /* Sources */,
+				D20886E12C934153009D513A /* Frameworks */,
+				D20886E22C934153009D513A /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = appBoxOC;
-			productName = appBoxOC;
-			productReference = D21451332C88BB650021F508 /* appBoxOC */;
+			name = appMatematicas;
+			productName = appMatematicas;
+			productReference = D20886E42C934153009D513A /* appMatematicas */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D214512B2C88BB650021F508 /* Project object */ = {
+		D20886DC2C934153009D513A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					D21451322C88BB650021F508 = {
+					D20886E32C934153009D513A = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = D214512E2C88BB650021F508 /* Build configuration list for PBXProject "appBoxOC" */;
+			buildConfigurationList = D20886DF2C934153009D513A /* Build configuration list for PBXProject "appMatematicas" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = D214512A2C88BB650021F508;
-			productRefGroup = D21451342C88BB650021F508 /* Products */;
+			mainGroup = D20886DB2C934153009D513A;
+			productRefGroup = D20886E52C934153009D513A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D21451322C88BB650021F508 /* appBoxOC */,
+				D20886E32C934153009D513A /* appMatematicas */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D214512F2C88BB650021F508 /* Sources */ = {
+		D20886E02C934153009D513A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21451372C88BB650021F508 /* main.m in Sources */,
-				D22A15362C8B572000EBEC06 /* Box.m in Sources */,
+				D20886E82C934154009D513A /* main.m in Sources */,
+				D20886F02C93422B009D513A /* Matematicas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D21451382C88BB650021F508 /* Debug */ = {
+		D20886E92C934154009D513A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		D21451392C88BB650021F508 /* Release */ = {
+		D20886EA2C934154009D513A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		D214513B2C88BB650021F508 /* Debug */ = {
+		D20886EC2C934154009D513A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		D214513C2C88BB650021F508 /* Release */ = {
+		D20886ED2C934154009D513A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -264,25 +264,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D214512E2C88BB650021F508 /* Build configuration list for PBXProject "appBoxOC" */ = {
+		D20886DF2C934153009D513A /* Build configuration list for PBXProject "appMatematicas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D21451382C88BB650021F508 /* Debug */,
-				D21451392C88BB650021F508 /* Release */,
+				D20886E92C934154009D513A /* Debug */,
+				D20886EA2C934154009D513A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D214513A2C88BB650021F508 /* Build configuration list for PBXNativeTarget "appBoxOC" */ = {
+		D20886EB2C934154009D513A /* Build configuration list for PBXNativeTarget "appMatematicas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D214513B2C88BB650021F508 /* Debug */,
-				D214513C2C88BB650021F508 /* Release */,
+				D20886EC2C934154009D513A /* Debug */,
+				D20886ED2C934154009D513A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D214512B2C88BB650021F508 /* Project object */;
+	rootObject = D20886DC2C934153009D513A /* Project object */;
 }
