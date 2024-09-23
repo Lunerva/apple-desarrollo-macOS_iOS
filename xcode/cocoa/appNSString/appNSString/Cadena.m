@@ -46,7 +46,7 @@
 -(NSMutableString *)aMayusculas:(NSMutableString *) cadena{
     NSMutableString *res = [[NSMutableString alloc]init];
     NSString *cad = texto1.stringValue;
-    int cont = 0;
+    //int cont = 0;
     for(int i=0;i<cad.length;i++){
         char car = [cad characterAtIndex:i];
         if(!(car>64 && car<91)){
